@@ -1,0 +1,253 @@
+@font-face {
+  font-family: Rosario;
+  src: url(./Asets/Fonts/Rosario/Rosario-Bold.ttf);
+}
+@font-face {
+  font-family: Rowdies;
+  src: url(./Asets/Fonts/Rowdies/Rowdies-Regular.ttf);
+}
+@font-face {
+  font-family: Rosario-text;
+  src: url(./Asets/Fonts/Rosario/Rosario-Regular.ttf);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  width:100%;
+  position:fixed;
+  z-index:999999999;
+  top:0;
+}
+.header-ul{
+  width: 20%;
+  list-style: none;
+}
+.header-list {
+  font-family: Rosario-text;
+  font-size: 20px;
+}
+.text-box h1{
+  font-family: Rosario;
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+.get-start-box{
+  width: 14rem;
+  font-size: 30px;
+  border-radius: 8px;
+  background:#FF4F5A;
+  transform: translateY(60px);
+}
+.get-start-link{
+  font-family: Rosario-text;
+  text-decoration: none;
+}
+.site-icons-box{
+  width: 1050px;
+  height: 300px;
+  margin-top: 12rem;
+}
+.site-icons-box h1{
+  font-family: Rosario;
+}
+.icons-box{
+  width: 100%;
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.achieve-box{
+  width: 1040px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.end-text{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.end-text h2{
+  font-family: Rosario;
+  width: 70%;
+}
+.get-end-box{
+  width: 14rem;
+  font-size: 30px;
+  border-radius: 8px;
+  background:#FF4F5A;
+}
+footer{
+  width: 100%;
+  height: 400px;
+}
+.footer-inner{
+  border-top: 3px solid  #FF4F5A;
+  width: 1050px;
+  height: 15rem;
+}
+.inner-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.footer-text-box{
+  width: 50%;
+  display: block;
+}
+.footer-logo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.footer-logo h5 {
+  width: 45%;
+  position: relative;
+  left: 28px;
+  font-size: 20px;
+}
+.footer-text{
+  width: 100%;
+  margin-top: 30px;
+}
+.footer-text h4{
+  font-size: 20px;
+  width: 45%;
+}
+.footer-text p{
+  font-size: 20px;
+  width: 100rem;
+  position: relative;
+  bottom: 10px;
+}
+.Lorem-box{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+.features-pricing-box{
+  /* width: 50%; */
+  display: block;
+  align-items: center;
+}
+.features-pricing-text{
+  font-size: 24px;
+  color: #FF4F5A;
+}
+.features-pricing-box p{
+  width: 30%;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.Login-box {
+  width: 512px;
+  height: 533px;
+  margin-top: 10rem;
+  border: 1px solid #D2D2D2;
+}
+.signin-text{
+  font-family:  Rowdies ;
+}
+.Login-box img{
+  margin-left: 39px;
+  margin-top: 41px;
+}
+.Login-box h1 {
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 39px;
+}
+.Login-button-box{
+  width: 100%;
+  height: 30%;
+  margin-top: 2rem;
+}
+.Login-button-box Button{
+  width: 431px;
+  height: 42px;
+  margin-top: 1rem;
+}
+.Login-button-box Button img{
+  margin: auto;
+  margin-right: 1rem;
+}
+.login-footer{
+  width: 431px;
+  height: 90px;
+}
+.login-footer-text{
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.LoginHeader{
+  background: #FF4F5A;
+}
+.logined-header-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 86px;
+}
+.avatar-box{
+  width: 9%;
+}
+.avatar-Link{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.avatar-text{
+  font-size: 24px;
+  color: #D2D2D2;
+}
+.settings-box{
+  width: 242px;
+  height: 147px;
+  position: relative;
+  top: 6rem;
+  left: 86rem;
+  border-radius: 16px;
+  border: 1px solid #D7D7D7;
+}
+.Link-settings{
+  display: block;
+  width: 93%;
+  font-size: 18px;
+  margin-left: 17px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+.logute{
+  color: #FF4F5A;
+}
+.Link-settings img{
+  margin-right: 10px;
+}
