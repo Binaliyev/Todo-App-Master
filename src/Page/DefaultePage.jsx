@@ -13,7 +13,7 @@ export const DefaultePage = () => {
         <>
         <Header/>
         <main>
-            <section className="hero">
+            <section className="hero" style={{marginTop:"10rem"}}>
                 <div className="container">
                     <div className="hero-inner text-center">
                         <div className="text-box text-center">

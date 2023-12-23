@@ -213,7 +213,7 @@ footer{
   height: 86px;
 }
 .avatar-box{
-  width: 9%;
+  width: 20%;
 }
 .avatar-Link{
   width: 100%;
@@ -250,4 +250,31 @@ footer{
 }
 .Link-settings img{
   margin-right: 10px;
+}
+.acardion-box{
+width: 306px;
+height: 1031px;
+position: relative;
+top: 5.3rem;
+left: 0;
+background: #F9F9F9;
+}
+.link-box-acardion{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+.activeText {
+  display: block;
+  font-size: 24px;
+  color: #FF4F5A;
+  text-decoration: none;
+}
+.noActiveTex{
+  display: block;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+.link-box-acardion img {
+  margin-right: 19px;
 }

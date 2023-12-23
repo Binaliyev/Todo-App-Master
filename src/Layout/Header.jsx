@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom"
 import Logo from "../Asets/Img/logo.svg"
 export const Header = () => {
     return(
-        <header style={{}}>
+        <header style={{background:"#FFF"}}>
             <div className="container">
                 <div className="header-inner my-4 d-flex align-items-center justify-content-between">
                     <Link className="Logo"><img src={Logo} alt="todo-Logo" /></Link>

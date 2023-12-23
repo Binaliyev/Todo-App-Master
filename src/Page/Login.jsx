@@ -3,7 +3,9 @@ import Logo from "../Asets/Img/logo.svg"
 import google from "../Asets/Icons/flat-color-icons_google.svg"
 import gitHupIcon from "../Asets/Icons/mdi_github.svg"
 import { Link } from "react-router-dom"
+import {  useAutheficationGooleHooc } from "../hooks/AutheficationHooc"
 export const LoginPage = () => {
+    const {GooleAuthefication} = useAutheficationGooleHooc()
     return(
         <main>
             <section className="hero">
@@ -13,7 +15,7 @@ export const LoginPage = () => {
                             <img src={Logo} alt="site-Logo" />
                             <h1 className="signin-text">Signin</h1>
                             <div className="Login-button-box text-center">
-                            <Button className="d-block mx-auto text-dark border"variant="outlined">
+                            <Button onClick={GooleAuthefication} className="d-block mx-auto text-dark border"variant="outlined">
                             <img src={google} alt="google-logo" /> Continue using Google</Button>
                             <Button className="text-dark d-block mx-auto border"
                              variant="outlined">  <img src={gitHupIcon} alt="gitHup-logo" /> Continue using Github</Button>
